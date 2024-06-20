@@ -85,8 +85,8 @@
                                 <img class="img-fluid" src="{{asset('assets/img/men/1.jpg')}}" alt="..." />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">TRENDY</div>
-                                <div class="portfolio-caption-subheading text-muted"></div>
+                                <div class="portfolio-caption-heading">Threads</div>
+                                <div class="portfolio-caption-subheading text-muted">Illustration</div>
                             </div>
                         </div>
                     </div>
