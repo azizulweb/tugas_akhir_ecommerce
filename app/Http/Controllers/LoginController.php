@@ -43,13 +43,6 @@ class LoginController extends Controller
             elseif($user->role == 'user') {
                 return redirect('/user/produk');
             } 
-//             if($user->role == 'admin') {
-//                 return redirect('/admin/produk');
-//             }
-//             else if($user->role == 'user') {
-//                 return redirect('/user/produk');
-//             }
-
         }
 
         return back()->withErrors([

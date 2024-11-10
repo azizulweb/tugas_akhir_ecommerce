@@ -79,6 +79,3 @@ Route::post('/simpanproduk',   [ProductController::class, 'store'])->name('simpa
 
 
 Route::post('/logout',   [LoginController::class, 'logout'])->name('logout');
-
-
-

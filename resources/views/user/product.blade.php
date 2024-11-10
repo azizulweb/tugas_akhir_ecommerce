@@ -14,7 +14,7 @@
     <!-- Theme style -->
     <link rel="stylesheet" href="{{asset('adminLTE/dist/css/adminlte.min.css')}}">
     <!-- loginstyle -->
-    {{-- <link rel="stylesheet" href="{{asset('adminLTE/dist/css/adminlte.min.css')}}"> --}}
+    <link rel="stylesheet" href="{{asset('adminLTE/dist/css/adminlte.min.css')}}">
     <!--Boostrap-->
     <link rel="stylesheet" href="{{asset('bootstrap-5.3/css/bootstrap.min.css')}}">
 
@@ -160,10 +160,10 @@
         </aside>
         
 
-        <!-- Content Wrapper. Contains page content -->
-        <div class="content-wrapper">
+      <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper">
           <!-- JuduL Kategori -->
-          <div class="content-header">
+        <div class="content-header">
             <div class="container-fluid">
               <div class="row mb-2">
                 <div class="col-sm-6">
@@ -219,14 +219,13 @@
                   <a href="{{route('user.detail.category', $item->id)}}" class="btn btn-primary d-block">detail</a>
                     <span class="m-auto text-dark fw-bold d-block text-center">Rp. 150.000-300.000</span>
                 </div>
-
             </div>
-        </div>
-          @endforeach
+          </div>
+           @endforeach
         </div>
       </div>
     </div>
-        <!-- /.content-wrapper -->
+    <!-- /.content-wrapper -->
 
         <!-- Control Sidebar -->
         <aside class="control-sidebar control-sidebar-dark">

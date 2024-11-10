@@ -17,7 +17,7 @@ class OrderController extends Controller
         return view('user.DataOrder', compact('order'));
     }
 
-    public function datapembelian(  )
+    public function datapembelian()
     {
         $order = Order::all();
         return view('admin.DataAdmin', compact('order'));
@@ -84,8 +84,7 @@ class OrderController extends Controller
         $data->ukuran=$request->ukuran;
         $data->save();
         return redirect('DataOrder-admin');
-        
-        
+    
     }
 
     /**

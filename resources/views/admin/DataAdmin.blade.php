@@ -4,8 +4,6 @@
 <div class="container border mb-4 mt-4 rounded-3 shadow bg-dark-subtle">
     <!-- Menu -->
 
-
-
     <!--Catalouge -->
     <h3 class="text-center">Data Pembelian</h3>
     <div>

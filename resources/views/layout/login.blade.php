@@ -53,9 +53,6 @@
                   <button class="btn btn-primary" type="submit" href="{{route('user.product')}}" >Log in</button>
                 </div>
               </div>
-              <div>
-               
-              </div>
             </div>
               <!-- /.col -->
             </div>

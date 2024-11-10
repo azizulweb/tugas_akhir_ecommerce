@@ -22,24 +22,24 @@
    
 </head>
 <style>
-  h1 {
-    color: rgba(32, 30, 30, 0.849);
-    font-family: 'Poppins', sans-serif;
-    font-style: italic;
+    h1 {
+      color: rgba(32, 30, 30, 0.849);
+      font-family: 'Poppins', sans-serif;
+      font-style: italic;
+    }
+    .content-wrapper {
+    background-image: url("{{asset('assets/img/men/2.webp')}}");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
   }
-  .content-wrapper {
-  background-image: url("{{asset('assets/img/men/2.webp')}}");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  position: relative;
-}
 
-.carousel-inner > .item > img,
-.carousel-inner > .item > a > img {
-    width: 70%;
-    margin: auto;
-  }
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+    }
 </style>
 
 
@@ -238,7 +238,7 @@
       </div>
       
 
-    </div>
+  </div>
         <!-- /.content-wrapper -->
 
         <!-- Control Sidebar -->

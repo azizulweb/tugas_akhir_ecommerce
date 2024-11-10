@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="{{asset('css/styles.css')}}" rel="stylesheet" />
-    <link href="{{asset('startbootstrap-agency-gh-pages/css/styles.css')}}" rel="stylesheet" />
+    {{-- <link href="{{asset('startbootstrap-agency-gh-pages/css/styles.css')}}" rel="stylesheet" /> --}}
 
 </head>
 

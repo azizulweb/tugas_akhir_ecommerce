@@ -20,7 +20,7 @@
           </tr>
         </thead>
         <tbody>
-            @foreach ($order as $item )
+             @foreach ($order as $item )
 
       <tr>
             <td>{{ $item->user->name }}</td>
@@ -47,11 +47,11 @@
         </td>
       </tr>
 
-          @endforeach
+           @endforeach
         </tbody>
     </table>
       <div class="d-flex justify-content-end">
-        <a href="{{url('/user/produk')}}" class="btn btn-dark">Back to Page</a>
+        <a href="#">Back to Page</a>
       </div>
   </div>
 
